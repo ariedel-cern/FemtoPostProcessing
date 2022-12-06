@@ -1,0 +1,160 @@
+{
+  "Event": {
+    "VertexZ": {
+      "RangeMin": -15,
+      "RangeMax": 15,
+      "Bins": 1000
+    },
+    "Multiplicity": {
+      "RangeMin": 0,
+      "RangeMax": 10000,
+      "Bins": 10000
+    }
+  },
+  "Particle_1D": {
+    "Charge": {
+      "RangeMin": -5.5,
+      "RangeMax": 5.5,
+      "Bins": 11
+    },
+    "Pt": {
+      "RangeMin": 0,
+      "RangeMax": 10,
+      "Bins": 1000
+    },
+    "Eta": {
+      "RangeMin": -1,
+      "RangeMax": 1,
+      "Bins": 1000
+    },
+    "Phi": {
+      "RangeMin": 0,
+      "RangeMax": 7,
+      "Bins": 700
+    },
+    "DCAxy": {
+      "RangeMin": -0.5,
+      "RangeMax": 0.5,
+      "Bins": 1000
+    },
+    "DCAz": {
+      "RangeMin": -0.5,
+      "RangeMax": 0.5,
+      "Bins": 1000
+    },
+    "DCAPrimaryVertex": {
+      "RangeMin": 0,
+      "RangeMax": 0.5,
+      "Bins": 1000
+    },
+    "DaughterDCA": {
+      "RangeMin": -5,
+      "RangeMax": 5,
+      "Bins": 1000
+    },
+    "TPCClustersFound": {
+      "RangeMin": -0.5,
+      "RangeMax": 199.5,
+      "Bins": 200
+    },
+    "TPCClustersFindable": {
+      "RangeMin": -0.5,
+      "RangeMax": 199.5,
+      "Bins": 200
+    },
+    "TPCCrossedRows": {
+      "RangeMin": -0.5,
+      "RangeMax": 199.5,
+      "Bins": 200
+    },
+    "TPCCrossedRowsOverFindable": {
+      "RangeMin": 0,
+      "RangeMax": 5,
+      "Bins": 1000
+    },
+    "TPCClustersShared": {
+      "RangeMin": -0.5,
+      "RangeMax": 199.5,
+      "Bins": 200
+    },
+    "ITSClusters": {
+      "RangeMin": -0.5,
+      "RangeMax": 9.5,
+      "Bins": 10
+    },
+    "ITSClustersIB": {
+      "RangeMin": -0.5,
+      "RangeMax": 9.5,
+      "Bins": 10
+    },
+    "NSigmaTPC": {
+      "RangeMin": -7,
+      "RangeMax": 7,
+      "Bins": 100
+    },
+    "NSigmaTOF": {
+      "RangeMin": -7,
+      "RangeMax": 7,
+      "Bins": 100
+    },
+    "CosPA": {
+      "RangeMin": 0,
+      "RangeMax": 1.5,
+      "Bins": 1000
+    },
+    "TransRadius": {
+      "RangeMin": 0,
+      "RangeMax": 150,
+      "Bins": 1000
+    },
+    "DecayVertexDist": {
+      "RangeMin": 0,
+      "RangeMax": 150,
+      "Bins": 1000
+    },
+    "K0InvMass": {
+      "RangeMin": 0.4,
+      "RangeMax": 0.6,
+      "Bins": 1000
+    },
+    "LambdaInvMass": {
+      "RangeMin": 1,
+      "RangeMax": 1.3,
+      "Bins": 100
+    }
+  },
+  "Particle_2D": {
+    "DCAxyVsPt": {
+      "XRangeMin": 0,
+      "XRangeMax": 10,
+      "XBins": 1000,
+      "YRangeMin": -0.5,
+      "YRangeMax": 0.5,
+      "YBins": 1000
+    },
+    "DCAzVsPt": {
+      "XRangeMin": 0,
+      "XRangeMax": 10,
+      "XBins": 1000,
+      "YRangeMin": -0.5,
+      "YRangeMax": 0.5,
+      "YBins": 1000
+    },
+    "NSigmaTPCvsP": {
+      "XRangeMin": 0,
+      "XRangeMax": 10,
+      "XBins": 1000,
+      "YRangeMin": -7,
+      "YRangeMax": 7,
+      "YBins": 100
+    },
+    "NSigmaTOFvsP": {
+      "XRangeMin": 0,
+      "XRangeMax": 10,
+      "XBins": 1000,
+      "YRangeMin": -7,
+      "YRangeMax": 7,
+      "YBins": 100
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "Event": {
+    "VertexZ": {
+      "Min": -10,
+      "Max": 10
+    }
+  },
+  "Proton_PTPC": 9999,
+  "Proton": {
+    "Charge": {
+      "Min": 0,
+      "Max": 1
+    },
+    "Pt": {
+      "Min": 0,
+      "Max": 10
+    },
+    "Eta": {
+      "Min": -0.8,
+      "Max": 0.8
+    },
+    "DCAxy": {
+      "Min": -0.1,
+      "Max": 0.1
+    },
+    "DCAz": {
+      "Min": -0.2,
+      "Max": 0.2
+    },
+    "TPCClustersFound": {
+      "Min": 80,
+      "Max": 200
+    },
+    "TPCCrossedRows": {
+      "Min": 70,
+      "Max": 200
+    },
+    "TPCCrossedRowsOverFindable": {
+      "Min": 0.83,
+      "Max": 10
+    },
+    "TPCClustersShared": {
+      "Min": -1,
+      "Max": 0
+    },
+    "NSigmaTPC": {
+      "Min": -9999,
+      "Max": 9999
+    },
+    "NSigmaTPCTOF": {
+      "Min": 0,
+      "Max": 9999
+    }
+  },
+  "Deuteron": {
+    "Charge": {
+      "Min": 0,
+      "Max": 1
+    },
+    "Pt": {
+      "Min": 0,
+      "Max": 10
+    },
+    "Eta": {
+      "Min": -0.8,
+      "Max": 0.8
+    },
+    "DCAxy": {
+      "Min": -0.1,
+      "Max": 0.1
+    },
+    "DCAz": {
+      "Min": -0.2,
+      "Max": 0.2
+    },
+    "TPCClustersFound": {
+      "Min": 80,
+      "Max": 200
+    },
+    "TPCCrossedRows": {
+      "Min": 70,
+      "Max": 200
+    },
+    "TPCCrossedRowsOverFindable": {
+      "Min": 0.83,
+      "Max": 10
+    },
+    "TPCClustersShared": {
+      "Min": -1,
+      "Max": 0
+    },
+    "ITSClusters": {
+      "Min": 2,
+      "Max": 9999
+    },
+    "ITSClustersIB": {
+      "Min": 1,
+      "Max": 9999
+    },
+    "NSigmaTPC": {
+      "Min": -9999,
+      "Max": 9999
+    },
+    "TPCRejection": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "Lambda": {
+    "Pt": {
+      "Min": 0.3,
+      "Max": 9999
+    },
+    "Eta": {
+      "Min": -0.8,
+      "Max": 0.8
+    },
+    "DaughterDCA": {
+      "Min": 0,
+      "Max": 1.5
+    },
+    "CosPA": {
+      "Min": 0.99,
+      "Max": 9999
+    },
+    "TransRadius": {
+      "Min": 0.2,
+      "Max": 100
+    },
+    "DecayVertexDist": {
+      "Min": -1,
+      "Max": 100
+    },
+    "K0InvMass": {
+      "Min": 0.48,
+      "Max": 0.515
+    },
+    "LambdaInvMass": {
+      "Min": 1.11,
+      "Max": 1.12
+    }
+  },
+  "PosDaughter": {
+    "Charge": {
+      "Min": 0,
+      "Max": 1
+    },
+    "Eta": {
+      "Min": -0.8,
+      "Max": 0.8
+    },
+    "DCAPrimaryVertex": {
+      "Min": -0.05,
+      "Max": 0.05
+    },
+    "TPCClustersFound": {
+      "Min": 70,
+      "Max": 9999
+    },
+    "NSigmaTPC": {
+      "Min": -9999,
+      "Max": 9999
+    }
+  },
+  "NegDaughter": {
+    "Charge": {
+      "Min": -1,
+      "Max": 0
+    },
+    "Eta": {
+      "Min": -0.8,
+      "Max": 0.8
+    },
+    "DCAPrimaryVertex": {
+      "Min": -0.05,
+      "Max": 0.05
+    },
+    "TPCClustersFound": {
+      "Min": 70,
+      "Max": 9999
+    },
+    "NSigmaTPC": {
+      "Min": -9999,
+      "Max": 9999
+    }
+  }
+}
